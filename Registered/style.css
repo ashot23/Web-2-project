@@ -1,0 +1,14 @@
+.main{
+margin: 0 auto;
+width: 640px;
+border-radius: 5px;
+border: 1px solid gray;
+}
+
+
+tr{
+width: inherit;
+height: 50px;
+
+}
+
