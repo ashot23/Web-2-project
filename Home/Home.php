@@ -43,9 +43,9 @@ document.getElementById('p2').innerText = 'Microsoft Windows, commonly referred 
     </div>
 </div>
 
-<div class="child12">
+<!-- <div class="child12">
 <img  class="img1" src="img/Windows_10.png" >
-</div>
+</div> -->
 <div class="main2">
         <div class="main3">
             

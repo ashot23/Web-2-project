@@ -34,11 +34,10 @@
 75%{color: black; text-shadow: 2px 3px orange; }
 }
 
-    .main{
-    width: 100%;
-        position: fixed;
+    /* .main{
+  position: fixed;
     
-    }
+    } */
     
     .child0{
     
@@ -267,7 +266,7 @@ font-style: italic;
         .aVal:hover{
 color: orange;
 left:50px; 
-        }9kn,n./;nkbyty gbhjkh gui6 mM<;jhf dreefbhj
+        }
         .gjbfyaVal:active{
 color: tomato;
 
@@ -348,10 +347,10 @@ box-shadow: 2px 1px black;
                             /*Menw*/
                             .main5{
                              border: 1px solid black;
-                            width: 100%;
                             height: 40px;
                             background-color: #0000ff;
                             display: flex;
+                             margin-top: 25px;
                             }
                             .you1{
                             margin: 8px 0 0 0;
@@ -368,5 +367,5 @@ box-shadow: 2px 1px black;
                             height: 30px;
                             }
                             
-
-           
+                       
+                        

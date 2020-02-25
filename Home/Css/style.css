@@ -6,6 +6,7 @@
 body {
   background-image: url("../Img/big.jpg");
   background-repeat: no-repeat;
+
 }
 
 .child1 {
@@ -79,10 +80,10 @@ li {
   }
 }
 
-.main {
-  width: 100%;
-  position: fixed;
-}
+/* .main {
+   width: 17px; 
+
+} */
 
 .child0 {
   float: right;
@@ -343,8 +344,11 @@ p {
 }
 
 .main5 {
+ position: relative;
+top: 71px; 
+align-items: flex-end;
   border: 1px solid black;
-  width: 100%;
+  /* width: 1920px; */
   height: 40px;
   background-color: #0000ff;
   display: flex;
@@ -366,3 +370,7 @@ p {
 .you {
   height: 30px;
 }
+
+
+
+

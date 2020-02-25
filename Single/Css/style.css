@@ -37,10 +37,10 @@
   }
 }
 
-.main {
-  width: 100%;
-  position: fixed;
-}
+/* .main {
+  width: 100%; 
+   position: fixed;
+} */
 .buy {
   border-radius: 20px;
   padding: 10px 25px;
@@ -160,10 +160,10 @@ ul {
 
 .main5 {
   border: 1px solid black;
-  width: 100%;
   height: 40px;
   background-color: #0000ff;
   display: flex;
+  margin-top:9px;
 }
 .you1 {
   margin: 8px 0 0 0;
@@ -191,3 +191,10 @@ ul {
 .MAC:hover {
   color: aqua;
 }
+
+/* 
+.main{
+
+display: inline;
+
+} */

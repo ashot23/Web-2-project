@@ -61,7 +61,6 @@ li {
 
 .main {
   width: 100%;
-  position: fixed;
 }
 
 .child0 {
@@ -389,11 +388,11 @@ li {
 }
 
 .main5{
-  border: 1px solid black;
-width: 100%;
+border: 1px solid black;
 height: 40px;
 background-color: #0000ff;
 display: flex;
+margin-top: 52px;
 }
 .you1{
 margin: 8px 0 0 0;

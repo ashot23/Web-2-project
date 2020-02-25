@@ -29,9 +29,9 @@
         
             </div>
         </div>
-        <div class="child12">
+        <!-- <div class="child12">
             <img class="img1" src="Img/Windows_10.png" >
-            </div>
+            </div> -->
 <div class="product">
 <div class="prod1">
 <img title="Windows 7" class="img2" src="Img/windws 7 x32jpg.jpg" alt="Win 7">
@@ -57,7 +57,7 @@
     <p class="p2"> 
             You may still be running your computer on Windows 7 or 8, and if so it might be time to buy Windows 7. This isn't just a performance update, Windows 10 brings new features and security settings to your machine that are crucial to getting your work done in today's operating systems. From the ease of the
     </p> <hr>  
-    <a class="aVal" target="_blank" href="../Single/Single.php">Go to BUY:</a> 
+    <a class="aVal"  href="../Single/Single.php">Go to BUY:</a> 
     <br>
     <span class="value">Value <del>100$  </del></span>
     <span class="value1"> 70$</span>
@@ -73,7 +73,7 @@
         <p class="p3"> 
                 You may still be running your computer on Windows 7 or 8, and if so it might be time to buy Windows 10. This isn't just a performance update, Windows 10 brings new features and security settings to your machine that are crucial to getting your work done in today's operating systems. From the ease of the
         </p> <hr>  
-        <a class="aVal" target="_blank" href="../Single/Single.php">Go to BUY:</a>  
+        <a class="aVal"  href="../Single/Single.php">Go to BUY:</a>  
         <br>
         <span class="value">Value <del>500$ </del> </span>
         <span class="value1"> 200$</span>
@@ -87,7 +87,7 @@
             <p class="p4"> 
                     You may still be running your computer on Windows 7 or 8, and if so it might be time to buy Windows 10. This isn't just a performance update, Windows 10 brings new features and security settings to your machine that are crucial to getting your work done in today's operating systems. From the ease of the
             </p> <hr> 
-            <a class="aVal" target="_blank" href="../Single/Single.php">Go to BUY:</a> 
+            <a class="aVal"  href="../Single/Single.php">Go to BUY:</a> 
             <br>
             <span class="value">Value <del>300$ </del> </span>
             <span class="value1"> 250$</span>

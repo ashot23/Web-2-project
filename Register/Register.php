@@ -28,7 +28,7 @@ return alert("Շնորհավորումեմ դուք բարեհաջող գրան�
 
         <ul>
                 <li> <a class="a1" href="../Home/Home.php">Home Page</a>|</li>
-                <li><a target="_blank" class="a2"  href="../Product/Product.php"> Product</a> |</li>
+                <li><a class="a2"  href="../Product/Product.php"> Product</a> |</li>
                 <li><a  class="a3" href="../Register/Register.php"> Register</a></li>
                 
                        </ul>
@@ -38,9 +38,9 @@ return alert("Շնորհավորումեմ դուք բարեհաջող գրան�
 
 
 
-<div class="child12">
+<!-- <div class="child12">
 <img class="img1" src="../Home/Img/Windows_10.png" >
-</div>
+</div> -->
 
 
 

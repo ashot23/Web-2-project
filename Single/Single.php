@@ -38,9 +38,9 @@ return alert("Շնորհավորումեմ դուք  Գնեցիկ ՝ Windows 10"
         
             </div>
         </div>
-        <div class="child12">
+        <!-- <div class="child12">
             <img class="img1" src="Img/Windows1_10.png" >
-            </div>
+            </div> -->
 
           <div class="main1">
 <div class="div1">
@@ -50,9 +50,9 @@ return alert("Շնորհավորումեմ դուք  Գնեցիկ ՝ Windows 10"
 <div class="div2">
 <p class="p1">
   <span style="font-size: 30px" >Microsoft Windows 10 </span><br> 
-  <span style="font-size: small" >by </span> <a target="_blank"class="MAC" href="https://www.macrosoftinc.com/">Microsoft</a> <br>
+  <span style="font-size: small" >by </span> <a class="MAC" href="https://www.macrosoftinc.com/">Microsoft</a> <br>
   <span style="font-size: 20px; color: brown" >Prince: 200$</span>
-<br>This item does not ship to <b>Armenia.</b>  Please check other sellers who may ship internationally.
+<br>This item does  ship to <b>Armenia.</b>  Please check other sellers who may ship internationally.
 Ships from and sold by Software Media. <br><br>
 <ul>
 
