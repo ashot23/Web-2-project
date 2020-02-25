@@ -30,7 +30,7 @@ return alert("Շնորհավորումեմ դուք  Գնեցիկ ՝ Windows 10"
            <div class="child0">
                 <ul>
                         <li class="li1" > <a class="a1" href="../Home/Home.php">Home Page</a>| </li>
-                        <li  class="li1"><a target="_blank" class="a2"  href="../Product/Product.php"> Product</a> |</li>
+                        <li  class="li1"><a  class="a2"  href="../Product/Product.php"> Product</a> |</li>
                         <li  class="li1"><a class="a3" href="../Register/Register.php"> Register</a></li>
                         
                                </ul>

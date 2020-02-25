@@ -33,7 +33,7 @@ document.getElementById('p2').innerText = 'Microsoft Windows, commonly referred 
    <div class="child0">
        <ul>
 <li> <a   class="a1" href="#">Home Page</a>| </li>
-<li><a target="_blank" class="a2"  href="../Product/Product.php"> Product</a> |</li>
+<li><a class="a2"  href="../Product/Product.php"> Product</a> |</li>
 <li><a class="a3" href="../Register/Register.php"> Register</a></li>
 
        </ul>

@@ -21,7 +21,7 @@
            <div class="child0">
                 <ul>
                         <li> <a class="a1" href="../Home/Home.php">Home Page</a>|</li>
-                        <li><a target="_blank" class="a2"  href="../Product/Product.php"> Product</a> |</li>
+                        <li><a  class="a2"  href="../Product/Product.php"> Product</a> |</li>
                         <li><a class="a3" href="../Register/Register.php"> Register</a></li>
                         
                                </ul>
@@ -106,7 +106,7 @@
             <a target="_blank" href="https://www.facebook.com/ashot.sargsyan.1848">
                 <img class="face" src="Img/facebook.jpg">
                 </a>
-                <a target="_blank"  href="https://www.instagram.com/ashot.sargsyan.02/">
+                <a   href="https://www.instagram.com/ashot.sargsyan.02/">
                 <img  class="inst" src="img/instagram.png">
             </a>
             <a target="_blank"  href="https://twitter.com/H7BcwPqd63PEL8P">

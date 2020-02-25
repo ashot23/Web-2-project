@@ -36,6 +36,8 @@ return alert("Շնորհավորումեմ դուք բարեհաջող գրան�
     </div>
 </div>
 
+
+
 <div class="child12">
 <img class="img1" src="../Home/Img/Windows_10.png" >
 </div>
@@ -45,8 +47,8 @@ return alert("Շնորհավորումեմ դուք բարեհաջող գրան�
 <div class="main2">
 <div class="child5">
 
-<form method="POST" action="../Registered/Baza.php">
-<input style="font-style: italic" name="name" class="name" placeholder="Անուն" type="text"></input><br>
+<form method="POST"   action="../Registered/Baza.php">
+<input tabindex="-1" style="font-style: italic" name="name" class="name" placeholder="Անուն" type="text"></input><br>
 <input style="font-style: italic" name="firstname" class="frstname" placeholder="Ազգանուն" type="text"></input><br>
 <input style="font-style: italic" name="password" class="password" placeholder="Գաղտնաբառ" type="password"></input><br>
 <div class="pol">
