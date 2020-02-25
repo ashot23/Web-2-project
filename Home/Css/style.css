@@ -6,6 +6,10 @@
 body {
   background-image: url("../Img/big.jpg");
   background-repeat: no-repeat;
+background-size: cover;
+white-space: normal;
+line-height: normal;
+
 
 }
 
@@ -297,7 +301,7 @@ p {
   background-color: #0c1890;
   color: white;
   text-decoration: none;
-  display: inline;
+  /* display: inline; */
   float: right;
   position: relative;
   animation-name: btn;
