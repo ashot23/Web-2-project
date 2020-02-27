@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Product</title>
-    <link rel="stylesheet" href="Css/style.css">
-    <link rel="icon" href="Img/Windows.ico">
-</head>
-<body>
-    
-
-    <div class="main">
-        <div class="child1">
-                <a href="../Home/Home.php">
-           <div class="nkar">
-                
-                <img title="Home" class="nkar1" src="Img/Windows.ico" alt="logo">
-         
-           </div>
-        </a>
-           <div class="child0">
-                <ul>
-                        <li> <a class="a1" href="../Home/Home.php">Home Page</a>|</li>
-                        <li><a  class="a2"  href="../Product/Product.php"> Product</a> |</li>
-                        <li><a class="a3" href="../Register/Register.php"> Register</a></li>
-                        
-                               </ul>
-           </div> 
-        
-            </div>
-        </div>
+<?php include('../header.php') ?>
         <!-- <div class="child12">
             <img class="img1" src="Img/Windows_10.png" >
             </div> -->
@@ -101,25 +71,4 @@
        
 </div>
 
-<div class="main5">
-        <div class="you1">
-            <a target="_blank" href="https://www.facebook.com/ashot.sargsyan.1848">
-                <img class="face" src="Img/facebook.jpg">
-                </a>
-                <a   href="https://www.instagram.com/ashot.sargsyan.02/">
-                <img  class="inst" src="img/instagram.png">
-            </a>
-            <a target="_blank"  href="https://twitter.com/H7BcwPqd63PEL8P">
-                <img class="twit" src="Img/twiter.png" >
-        </a>
-        <a target="_blank"  href="https://www.youtube.com">
-                <img class="you" src="Img/youtube.png">
-    </a>
-        </div>
-    <div class="you2">
-      <span class="spa1"> ©designed by` Ashot:</span>     
-    </div>
-    
-        </div>
-</body>
-</html>
+<?php include('../footer.php') ?>

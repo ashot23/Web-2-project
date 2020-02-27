@@ -13,6 +13,9 @@ line-height: normal;
 
 }
 
+
+
+
 .child1 {
   background-color: #0000ff;
   color: white;
@@ -157,8 +160,12 @@ li {
   height: 300px;
 }
 .main2 {
-  margin: 50px 50px;
+
+  width: 1200px;
+  margin: 90px auto;
+  /* margin: 50px 50px;  */ 
   display: flex;
+  box-sizing: border-box;
 }
 
 .nkar {
@@ -223,7 +230,7 @@ h1 {
   text-shadow: 1px 2px black;
 }
 hr {
-  width: 60%;
+  width: 95%;
   color: blue;
   height: 2px;
   margin: 25px 0px;
@@ -319,22 +326,22 @@ p {
   }
   25% {
     border-radius: 20px 0 0 0;
-    right: 400px;
+    right: 200px;
     transform: rotateY(720deg);
   }
   50% {
     border-radius: 20px 20px 0 0;
-    right: 400px;
+    right: 200px;
     transform: rotateY(720deg);
   }
   75% {
     border-radius: 20px 20px 20px 0;
-    right: 400px;
+    right: 200px;
     transform: rotateY(720deg);
   }
   100% {
     border-radius: 20px 20px 20px 20px;
-    right: 400px;
+    right: 200px;
     transform: rotateY(720deg);
   }
 }
@@ -348,9 +355,10 @@ p {
 }
 
 .main5 {
- position: relative;
+ /* position: relative;
 top: 71px; 
-align-items: flex-end;
+align-items: flex-end; */
+  
   border: 1px solid black;
   /* width: 1920px; */
   height: 40px;

@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Register</title>
-    <link rel="stylesheet" href="Css/style.css">
-    <link rel="Icon" href="//ssl.gstatic.com/classroom/favicon_black.png">
-    <script>
-    function reg(){
-
-return alert("Շնորհավորումեմ դուք բարեհաջող գրանցվեցիք ")
-
-
-    }
-    
-    </script>
-</head>
-<body>
-    <div class="main">
-        <a href="../Home/Home.php">
-<div class="child1">
-   <div title="Home" class="nkar">
-        <img class="nkar1" src="Img/Windows.ico" alt="logo">
-      
-   </div>
-</a>
-   <div class="child0">
-
-        <ul>
-                <li> <a class="a1" href="../Home/Home.php">Home Page</a>|</li>
-                <li><a class="a2"  href="../Product/Product.php"> Product</a> |</li>
-                <li><a  class="a3" href="../Register/Register.php"> Register</a></li>
-                
-                       </ul>
-   </div> 
-    </div>
-</div>
+<?php include('../header.php') ?>
 
 
 
@@ -113,26 +77,4 @@ for ($i=0; $i <12 ; $i++) { ?>
 </div>
 
 
-<div class="main5">
-    <div class="you1">
-        <a target="_blank" href="https://www.facebook.com/ashot.sargsyan.1848">
-            <img class="face" src="Img/facebook.jpg">
-            </a>
-            <a target="_blank"  href="https://www.instagram.com/ashot.sargsyan.02/">
-            <img  class="inst" src="img/instagram.png">
-        </a>
-        <a target="_blank"  href="https://twitter.com/H7BcwPqd63PEL8P">
-            <img class="twit" src="Img/twiter.png" >
-    </a>
-    <a target="_blank"  href="https://www.youtube.com">
-            <img class="you" src="Img/youtube.png">
-</a>
-    </div>
-<div class="you2">
-        ©designed by `Ashot:
-
-</div>
-
-    </div>
-</body>
-</html>
+<?php include('../footer.php') ?>

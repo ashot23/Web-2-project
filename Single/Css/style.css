@@ -5,7 +5,7 @@
 
 .main1 {
   margin: 0 auto;
-  margin: 0 0 0 60px;
+ width: 1300px; 
 }
 
 .child1 {
@@ -57,7 +57,10 @@
   font-size: 20px;
 }
 
-.li1 {
+ul {
+  list-style-type: none;
+}
+li {
   display: inline;
 }
 
