@@ -1,4 +1,4 @@
-<?php include('header.php') ?>
+<?php include('../header.php') ?>
 <body>
 
 
@@ -34,4 +34,4 @@ $desc = $_POST['description'];
 	 
     
 
-		<?php include('footer.php') ?>
+		<?php include('../footer.php') ?>

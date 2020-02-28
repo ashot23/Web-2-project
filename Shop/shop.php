@@ -1,5 +1,4 @@
-<?php include('header.php') ?>
-<body>
+<?php include('../header.php') ?>
 	<?php 
     $db  = mysqli_connect('localhost', 'root', '', 'shop');
     if($db){
@@ -22,6 +21,6 @@
     }	
 ?>
     	
-		<?php include('footer.php') ?> 
+		<?php include('../footer.php') ?> 
     
 

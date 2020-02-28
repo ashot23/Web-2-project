@@ -70,7 +70,9 @@ li {
 }
 .a1,
 .a2,
-.a3 {
+.a3,
+.a4,
+.a5 {
   color: white;
   text-decoration: none;
   font-size: 20px;
@@ -92,6 +94,16 @@ li {
   text-shadow: 1px 2px gray;
 }
 
+.a4:hover {
+  color: black;
+  text-shadow: 1px 2px gray;
+}
+
+.a5:hover {
+  color: black;
+  text-shadow: 1px 2px gray;
+}
+
 .a1:active {
   color: aqua;
 }
@@ -106,7 +118,14 @@ li {
 .a3:active {
   color: aqua;
 }
+.a4:active {
+  color: aqua;
+}
 
+
+.a5:active {
+  color: aqua;
+}
 .nkar1 {
   animation-iteration-count: infinite;
   animation-name: Nkar;
@@ -161,13 +180,27 @@ ul {
   height: 500px;
 }
 
-.main5 {
+
+
+body{
+  position: relative;
+  /* padding-bottom: 40px; */
+  min-height: 100vh;
+  
+  }
+  
+  
+  
+  .main5{
   border: 1px solid black;
   height: 40px;
   background-color: #0000ff;
   display: flex;
-  margin-top:9px;
-}
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  }
+
 .you1 {
   margin: 8px 0 0 0;
 }

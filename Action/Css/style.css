@@ -51,14 +51,13 @@ li {
   }
 }
 
-
 .a4 {
   animation-name: a4;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-delay: 2s;
 }
-@keyframes a4 {
+@keyframes aa4 {
   0% {
     color: white;
   }
@@ -74,7 +73,7 @@ li {
   animation-iteration-count: infinite;
   animation-delay: 2.5s;
 }
-@keyframes a5 {
+@keyframes a5{
   0% {
     color: white;
   }
@@ -82,9 +81,6 @@ li {
     color: black;
   }
 }
-
-
-
 
 .child1 {
   background-color: #0000ff;
@@ -127,7 +123,6 @@ li {
   color: black;
   text-shadow: 1px 2px gray;
 }
-
 .a4:hover {
   color: black;
   text-shadow: 1px 2px gray;
@@ -136,8 +131,6 @@ li {
   color: black;
   text-shadow: 1px 2px gray;
 }
-
-
 .a1:active {
   color: aqua;
 }
@@ -154,7 +147,6 @@ li {
 .a5:active {
   color: aqua;
 }
-
 
 .nkar1 {
   margin: 0 0 0 30px;
@@ -193,13 +185,13 @@ li {
   margin: 0 auto;
 }
 
-.child5 {
+/* .child5 {
   display: inline-block;
   position: relative;
   animation-name: Tex;
   animation-duration: 10s;
   animation-fill-mode: both;
-}
+} */
 
 .child6 {
   display: inline-block;
@@ -220,8 +212,6 @@ li {
 
 .name {
   position: relative;
-  animation-name: name;
-  animation-duration: 1.5s;
   width: 400px;
   height: 30px;
   border-radius: 10px;
@@ -229,22 +219,25 @@ li {
   animation-fill-mode: forwards;
 }
 
-@keyframes name {
-  0% {
-    left: 0;
-    transform: rotateY(0deg);
-  }
-  100% {
-    left: 300px;
-    transform: rotatey(720deg);
-  }
-}
+
 
 .child5 {
-  
+  /* position: relative;
   display: inline-block;
+ animation-duration: 3s;
+ animation-fill-mode: forwards;
+ animation-name: texa; */
+
+margin: 0 auto;
 
 }
+
+@keyframes texa{
+  0%{left:0px};
+  100%{left: 300px};
+
+  }
+  
 
 
 
@@ -259,16 +252,6 @@ li {
   animation-duration: 1.5s;
   animation-name: firsname;
 }
-@keyframes firsname {
-  0% {
-    left: 0;
-    transform: rotateY(0deg);
-  }
-  100% {
-    left: 300px;
-    transform: rotateY(720deg);
-  }
-}
 
 .password {
   animation-fill-mode: forwards;
@@ -280,16 +263,6 @@ li {
   position: relative;
   animation-duration: 1.5s;
   animation-name: firsname;
-}
-@keyframes firsname {
-  0% {
-    left: 0;
-    transform: rotateY(0deg);
-  }
-  100% {
-    left: 300px;
-    transform: rotateY(720deg);
-  }
 }
 
 .famale {
@@ -309,7 +282,6 @@ li {
 }
 
 .pol {
-  background-color: white;
   width: 390px;
   margin: 0px 0 5px 0;
   animation-fill-mode: forwards;
@@ -319,19 +291,9 @@ li {
   animation-name: pol;
 }
 
-@keyframes pol {
-  0% {
-    left: 0;
-    transform: rotateY(0deg);
-  }
-  100% {
-    left: 300px;
-    transform: rotateY(720deg);
-  }
-}
+
 
 .data1 {
-  background-color: white;
   animation-fill-mode: forwards;
   animation-delay: 3s;
   position: relative;
@@ -343,16 +305,7 @@ li {
   animation-name: data;
 }
 
-@keyframes data {
-  0% {
-    left: 0;
-    transform: rotateY(0deg);
-  }
-  100% {
-    left: 300px;
-    transform: rotateY(720deg);
-  }
-}
+
 
 .email {
   animation-fill-mode: forwards;
@@ -365,16 +318,7 @@ li {
   animation-duration: 1.5s;
   animation-name: emal;
 }
-@keyframes emal {
-  0% {
-    left: 0;
-    transform: rotateY(0deg);
-  }
-  100% {
-    left: 300px;
-    transform: rotateY(720deg);
-  }
-}
+
 
 .textare {
   animation-fill-mode: forwards;
@@ -387,16 +331,7 @@ li {
   animation-name: textare;
 }
 
-@keyframes textare {
-  0% {
-    left: 0;
-    transform: rotateY(0deg);
-  }
-  100% {
-    left: 300px;
-    transform: rotateY(720deg);
-  }
-}
+
 
 
 
@@ -430,14 +365,7 @@ li {
   transform: rotateX(720deg);
 }
 
-@keyframes sumb {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: 300px;
-  }
-}
+
 
 
 .child6 {
@@ -456,26 +384,23 @@ li {
 }
 
 body{
-background-image: url('../Img/backraund.jpg');
-background-size: cover;
-position: relative;
-/* padding-bottom: 58px; */
-min-height: 100vh;
-background-color: cornflowerblue;
-
-}
-
-
-
-.main5{
-border: 1px solid black;
-height: 40px;
-background-color: #0000ff;
-display: flex;
-position: absolute;
-bottom: 0;
-width: 99.9%;
-}
+  position: relative;
+  /* padding-bottom: 40px; */
+  min-height: 100vh;
+  
+  }
+  
+  
+  
+  .main5{
+  border: 1px solid black;
+  height: 40px;
+  background-color: #0000ff;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  }
 .you1{
 margin: 8px 0 0 0;
 }

@@ -269,7 +269,7 @@ font-style: italic;
 color: orange;
 left:50px; 
         }
-        .gjbfyaVal:active{
+        .aVal:active{
 color: tomato;
 
         }
@@ -345,14 +345,22 @@ box-shadow: 2px 1px black;
                             z-index: 1;
                             
                             }
+                            .body{     
+    position: relative;
+    /* padding-bottom: 80px; */
+     min-height: 100vh;
+                            }
 
                             /*Menw*/
                             .main5{
+                                
                              border: 1px solid black;
                             height: 40px;
                             background-color: #0000ff;
                             display: flex;
-                             margin-top: 25px;
+                            position: absolute;
+                            bottom: 0;
+                            width: 99.9%;
                             }
                             .you1{
                             margin: 8px 0 0 0;

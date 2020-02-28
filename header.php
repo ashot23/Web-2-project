@@ -22,8 +22,8 @@
 <li> <a   class="a1" href="../index.php">Home Page</a>| </li>
 <li><a class="a2"  href="../Web/Product/Product.php"> Product</a> |</li>
 <li><a class="a3" href="../Web/Register/Register.php"> Register</a>|</li>
-<li><a class="a3" href="action.php">Action</a>|</li>
-<li><a class="a3" href="shop.php"> Shop</a></li>
+<li><a class="a4" href="../Web/Action/action.php">Action</a>|</li>
+<li><a class="a5" href="../Web/Shop/shop.php"> Shop</a></li>
        </ul>
  
    </div> 
