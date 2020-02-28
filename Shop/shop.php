@@ -1,3 +1,10 @@
+
+<?php 
+$title = 'Shop'
+
+?>
+
+
 <?php include('../header.php') ?>
 	<?php 
     $db  = mysqli_connect('localhost', 'root', '', 'shop');

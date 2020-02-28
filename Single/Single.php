@@ -1,3 +1,10 @@
+
+<?php 
+$title = 'Single'
+
+?>
+
+
 <?php include('../header.php') ?>
         <!-- <div class="child12">
             <img class="img1" src="Img/Windows1_10.png" >

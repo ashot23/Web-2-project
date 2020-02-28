@@ -1,6 +1,12 @@
+
+<?php 
+$title = 'Action'
+
+?>
+
+
 <?php include('../header.php') ?>
 <body>
-
 
 <form method="POST" action="action.php">
 <input type="text" name="name" placeholder="name"><br>

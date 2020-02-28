@@ -1,8 +1,10 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title><?php echo $title ?></title>
     <link rel="stylesheet" href="Css/style.css">
     <link rel="Icon" href="Img/Ico.png">
   <script src="script.js"></script>
