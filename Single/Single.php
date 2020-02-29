@@ -1,39 +1,54 @@
 
 <?php 
-$title = 'Single'
+$title = 'Single';
 
+$db = mysqli_connect('localhost','root','','shop');
+if ($db) {
+  $query = 'SELECT * FROM `product` WHERE `id`='.$_GET['id'];
+
+  $result = mysqli_query($db, $query);
+  $r = mysqli_fetch_assoc($result);
+  $icon = "$r[image]";
+}
+$icon = "$r[image]";
 ?>
 
 
 <?php include('../header.php') ?>
-        <!-- <div class="child12">
-            <img class="img1" src="Img/Windows1_10.png" >
-            </div> -->
+
+
+
 
           <div class="main1">
-<div class="div1">
-<img class="nkar0" title="Windows X" src="../Product/Img/120-1206207_windows-10-pro-build-10240-iso-32-64.png.jpg" >
+
+
+<?php 	
+		$db = mysqli_connect('localhost','root','','shop');
+		if ($db) {
+			$query = 'SELECT * FROM `product` WHERE `id`='.$_GET['id'];
+
+			$result = mysqli_query($db, $query);
+
+			while($r = mysqli_fetch_assoc($result)){ ?>
+			<div class="div1">
+<img class="nkar0" title="<?php echo $r['name']; ?>" src="<?php echo $r['image']; ?>" >
 
 </div>
-<div class="div2">
+        <div class="div2">
 <p class="p1">
-  <span style="font-size: 30px" >Microsoft Windows 10 </span><br> 
+  <span style="font-size: 30px" ><?php echo $r['name']; ?> </span><br> 
   <span style="font-size: small" >by </span> <a class="MAC" href="https://www.macrosoftinc.com/">Microsoft</a> <br>
-  <span style="font-size: 20px; color: brown" >Prince: 200$</span>
+  <span style="font-size: 20px; color: brown" ><?php echo $r['price']; ?>$</span>
 <br>This item does  ship to <b>Armenia.</b>  Please check other sellers who may ship internationally.
 Ships from and sold by Software Media. <br><br>
-<ul>
+<p class="p2">
 
+<?php echo $r['description']; ?>
 
-<li>Share all of your favorite photos, videos, and music--you can even watch, pause, rewind, and record TV</li> 
-<li>Easily create a home network and connect your PCs to a printer with HomeGroup</li> 
-<li>Start programs faster and more easily, and quickly find the documents you use most often</li> 
-<li> Make your web experience faster, easier and safer than ever with Internet Explorer 8</li> 
-<li> Make the things you do every day easier with improved desktop navigation</li>
-</ul>
+</p>
 
-<form >
-    <input onclick="buy()" class="buy" value="BUY" type="Submit"></input>
+<form action="/Web/Product/Product.php" method="GET"  >
+    <input onclick="buy()" name="buy" class="buy" value="BUY" type="Submit"></input>
 <input type="checkbox"> <b> 1 item </b></input>
 <input type="checkbox"><b> 2 item </b> </input>
 
@@ -49,5 +64,10 @@ Ships from and sold by Software Media. <br><br>
 
 </div>
           </div>
+		<?php }
+		}
+	?>
+
+
 
           <?php include('../footer.php') ?>

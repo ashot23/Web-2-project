@@ -1,12 +1,13 @@
 
 
 <?php 
-$title = 'Home'
+$title = 'Home';
+$icon = 'Img/Ico.png';
 
 ?>
 
 
-<?php include('./header.php') ?>
+<?php include('Header index.php') ?>
 <!-- <div class="child12">
 <img  class="img1" src="img/Windows_10.png" >
 </div> -->

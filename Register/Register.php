@@ -1,8 +1,8 @@
 
 
 <?php 
-$title = 'Register'
-
+$title = 'Register';
+$icon = 'Img/Ico.png';
 ?>
 
 

@@ -412,6 +412,12 @@ p {
   text-shadow: 1px 2px gray;
 }
 
+
+.s1{
+  font-size: 20px;
+color: black;
+}
+
 .main5 {
   border: 1px solid black;
   /* width: 1920px; */

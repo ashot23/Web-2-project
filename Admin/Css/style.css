@@ -57,7 +57,7 @@ li {
   animation-iteration-count: infinite;
   animation-delay: 2s;
 }
-@keyframes aa4 {
+@keyframes a4 {
   0% {
     color: white;
   }
@@ -102,11 +102,17 @@ li {
 .a2,
 .a3,
 .a4,
-.a5 {
+.a5
+ {
   color: white;
   text-decoration: none;
   font-size: 20px;
   font-family: monospace;
+}
+
+.s1{
+  font-size: 20px;
+color: black;
 }
 
 .a2:hover {
