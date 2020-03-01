@@ -11,5 +11,26 @@ function back(){
 document.getElementById('p2').innerText = 'Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. Active Microsoft Windows families include Windows NT and Windows IoT; these may encompass subfamilies, e.g. Windows Server or Windows Embedded Compact (Windows CE). Defunct Microsoft Windows families include Windows 9x, Windows Mobile and Windows Phone.Microsoft introduced an operating environment named Windows on November 20, 1985, as a graphical operating system shell for MS-DOS in response to the growing:'
 
 }
+var im = document.getElementById('imagi') 
+function imga() {
+    var im = document.getElementById('imagi') 
+  im.src = 'Img/Win 7.jpg'
+}
 
+function imga1() {
+    var im = document.getElementById('imagi') 
+   im.src = 'Img/Win 10.jpg'
 
+ }
+ function imga1() {
+    var im = document.getElementById('imagi') 
+   im.src = 'Img/Win 10.jpg'
+
+ }
+ function imga2() {
+    var im = document.getElementById('imagi') 
+   im.src = 'Img/window xp.jpg'
+
+ }
+
+ 

@@ -47,8 +47,11 @@ Ships from and sold by Software Media. <br><br>
 
 </p>
 
-<form action="/Web/Product/Product.php" method="GET"  >
-    <input onclick="buy()" name="buy" class="buy" value="BUY" type="Submit"></input>
+
+   
+<!-- <input onclick="buy()" name="buy" class="buy" value="BUY" type="Submit"></input> -->
+<a  onclick="buy()" class="buy" href="../Delet.php?id=<?php echo $_GET['id']; ?>">Buy:</a>
+<form class="f1"   >
 <input type="checkbox"> <b> 1 item </b></input>
 <input type="checkbox"><b> 2 item </b> </input>
 

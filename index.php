@@ -8,18 +8,15 @@ $icon = 'Img/Ico.png';
 
 
 <?php include('Header index.php') ?>
-<!-- <div class="child12">
-<img  class="img1" src="img/Windows_10.png" >
-</div> -->
 <div class="main2">
         <div class="main3">
             
-           <img class="nkar2" src="img/big.jpg"> 
+           <img  id="imagi"  class="nkar2" src="img/big.jpg"> 
        
            <div class="parent">
-<div class="child2"><img class="chi1"  title="Windows 7" class="wind7" src="Img/Win 7.jpg" ></div>
-<div class="child3"><img class="chi2"  title="Windows 10" src="Img/Win 10.jpg" class="win10" ></div>
-<div class="child4"><img class="chi3"  title="Windows XP" src="Img/window xp.jpg" class="winxp"></div>
+<div class="child2"><img onclick="imga()"  class="chi1" id="imag1"  title="Windows 7" class="wind7" src="Img/Win 7.jpg" ></div>
+<div class="child3"><img onclick="imga1()" class="chi2" id="imag2"  title="Windows 10" src="Img/Win 10.jpg" class="win10" ></div>
+<div class="child4"><img onclick="imga2()" class="chi3" id="imag3"  title="Windows XP" src="Img/window xp.jpg" class="winxp"></div>
 </div>
         </div>
 <div class="main4">

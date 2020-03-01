@@ -34,7 +34,7 @@ $icon = 'Img/Ico.png';
 <hr>  
 <a class="aVal" href="../Single/Single.php?id=<?php echo $r['id']; ?>">Go to BUY:</a>
 <br>
-<span class="value">Value <del>250$ </del></span>
+<span class="value">Value <del><?php echo rand(160,300).'$'?> </del></span>
 <span class="value1"> <?php echo $r['price'].'$' ?></span>
 </div>
 </div>

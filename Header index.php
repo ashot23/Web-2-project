@@ -14,7 +14,7 @@
    
     <div class="main">
 <div class="child1">
-    <a href="../index.php">
+    <a href="index.php">
    <div class="nkar">
         <img title="Home" class="nkar1" src="Img/Windows.ico" alt="logo">
     </a>

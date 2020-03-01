@@ -1,3 +1,20 @@
+<style>
+a{
+    
+font-size:20px;
+border:1px solid gray;
+text-shadow:1px 2px gray;
+padding: 10px;
+border-radius: 20px;
+text-decoration: none;
+    }
+    a:hover{
+        background-color: blue;
+    }
+
+
+</style>
+
 <?php 
 
 	$name = $_POST['name'];
@@ -18,6 +35,13 @@
 			echo 'ERROR!!!';
 		}
 	}
-	?>
+?>
 
-	<a href="index.php">Home</a>
+<br>
+<a href="index.php">Home</a>
+
+	
+
+	
+	
+	
