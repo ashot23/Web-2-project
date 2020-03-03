@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,9 +18,14 @@
         <img title="Home" class="nkar1" src="Img/Windows.ico" alt="logo">
     </a>
    </div>
+    </div>
+<div align = 'center' class="head1">
+    Windows Shop
+</div>
    <div class="child0">
-       <ul>
-<li> <a   class="a1" href="../index.php">Home Page</a><span >|</span> </li>
+       
+       <ul>  
+      <li> <a   class="a1" href="../index.php">Home Page</a><span >|</span> </li>
 <li><a class="a2"  href="../Product/Product.php"> Shop</a> <span>|</span> </li>
 <li><a class="a3" href="../Register/Register.php"> Register</a><span>|</span> </li>
 <li><a class="a4" href="../Admin/admin.php">Admin</a></li>
@@ -31,3 +35,16 @@
 
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+

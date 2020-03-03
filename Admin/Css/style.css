@@ -20,6 +20,52 @@ li {
     color: red;
   }
 }
+.Update{
+  float: left;
+  border: 2px solid blue;
+  border-radius: 20px;
+ 
+}
+.Add{
+  float: left;
+  border: 2px solid blue;
+  margin-right: 5px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+.crund{
+  width: 1300px;
+  margin: 0 auto;
+  height: 500px;
+}
+.tab{
+
+  width: 1300px;
+  margin: 0 auto;
+  
+
+}
+table{
+  color: white;
+  /* border: 1px solid black; */
+  border-color: black;
+  border-radius: 20px;
+ 
+}
+
+td{
+width: 30px;
+
+
+}
+
+
+.add1{
+font-size: 40px;
+color: white;
+margin: 0 auto;
+}
 
 .a2 {
   animation-name: a2;
@@ -81,13 +127,27 @@ li {
     color: black;
   }
 }
+.head1:hover{
+color: black;
 
-.child1 {
+}
+.main{
   background-color: #0000ff;
   color: white;
-  height: 40px;
+  height: 60px;
   border: 1px solid black;
-  padding: 0px 0px 20px 0px;
+  /* padding: 0px 0px 20px 0px; */
+}
+.head1{
+  position: relative;
+  left: 700px;
+  display: inline;;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+font-style: italic;
+    color: #FFFFFF;
+    text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+    color: #FFFFFF;
 }
 
 .main {
@@ -107,7 +167,7 @@ li {
   color: white;
   text-decoration: none;
   font-size: 20px;
-  font-family: monospace;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .s1{
@@ -221,7 +281,7 @@ color: black;
   width: 400px;
   height: 30px;
   border-radius: 10px;
-  margin: 50px 0 20px 0px;
+  margin: 0px 0 20px 0px;
   animation-fill-mode: forwards;
 }
 

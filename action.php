@@ -11,7 +11,10 @@ text-decoration: none;
     a:hover{
         background-color: blue;
     }
+p{
 
+	margin-top: 20px;
+}
 
 </style>
 
@@ -32,13 +35,13 @@ text-decoration: none;
 		if ($result) {
 			echo 'Product is added';
 		} else {
-			echo 'ERROR!!!';
+			echo '<p>ERROR!!!</p>';
 		}
 	}
 ?>
 
 <br>
-<a href="index.php">Home</a>
+<a href="index.php"><- go to Back</a>
 
 	
 

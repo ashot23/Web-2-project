@@ -19,7 +19,12 @@
         <img title="Home" class="nkar1" src="Img/Windows.ico" alt="logo">
     </a>
    </div>
+    </div>
+<div align = 'center' class="head1">
+    Windows Shop
+</div>
    <div class="child0">
+       
        <ul>
 <li> <a   class="a1" href="index.php">Home Page</a><span class="s1">|</span>  </li>
 <li><a class="a2"  href="./Product/Product.php"> Shop</a> <span class="s1">|</span> </li>
@@ -31,3 +36,4 @@
 
     </div>
 </div>
+

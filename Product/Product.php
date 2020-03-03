@@ -18,13 +18,10 @@ $icon = 'Img/Ico.png';
 				
                                 
 <div id="<?php echo $r['id'] ?>"  class="prod1">
-	<div class="imagediv">
-
-	
-	
+	<div class="imagediv">	
 	<img title="<?php echo $r['name'] ?>" class="img2" src="<?php echo $r['image'] ?>" alt='Microsoft'>
 	</div>
-<span><?php  echo $r['name']?></span>
+<span ><?php  echo $r['name']?></span>
 
 <div class="text1">
     <p class="p1">
