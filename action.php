@@ -14,6 +14,7 @@ text-decoration: none;
 p{
 
 	margin-top: 20px;
+	font-size: 60px;
 }
 
 </style>
@@ -33,7 +34,7 @@ p{
 		
 		$result = mysqli_query($db, $query);
 		if ($result) {
-			echo 'Product is added';
+			echo '<p>Product is added</p';
 		} else {
 			echo '<p>ERROR!!!</p>';
 		}
@@ -41,7 +42,7 @@ p{
 ?>
 
 <br>
-<a href="index.php"><- go to Back</a>
+<a href="./Product/Product.php"><- go to Back</a>
 
 	
 

@@ -6,6 +6,11 @@ $icon = 'Img/Ico.png';
 
 
 <?php include('../header.php') ?>
+
+<style>
+
+
+</style>
 <div class="crund">
 
 
@@ -43,6 +48,7 @@ $icon = 'Img/Ico.png';
 <!-- </div> -->
     	
 </div>
+<h2 align = 'center'>Table of product</h2>
 <div class="tab">
 <table border = 1>
 
@@ -64,7 +70,6 @@ $icon = 'Img/Ico.png';
 
 <tr>
 <?php 
-	$db = mysqli_connect('localhost','root','','shop');
 		if ($db) {
 		$query = 'SELECT * FROM `product`';
 
@@ -87,7 +92,7 @@ $icon = 'Img/Ico.png';
 		$result = mysqli_query($db, $query);
 		echo '<td>Price</td>';
 			while($r = mysqli_fetch_assoc($result)){ ?>
-  <td><?php echo $r['price'] ?></td>
+  <td><?php echo $r['price'].'$' ?></td>
   <?php }
 		}
 	?>
@@ -103,18 +108,20 @@ $icon = 'Img/Ico.png';
 		$result = mysqli_query($db, $query);
 		echo '<td>image</td>';
 			while($r = mysqli_fetch_assoc($result)){ ?>
-  <td ><?php echo  $r['image'] ?></td>
+
+  <td class="nka"  > <img title="<?php echo $r['name'] ?>" class="nka" src="<?php echo $r['image'] ?>" alt="<?php echo $r['name'] ?>"> </td>
   <?php }
 		}
 	?>
 
 </tr>
+
 <tr>
 <?php 
 	$db = mysqli_connect('localhost','root','','shop');
 		if ($db) {
 		$query = 'SELECT * FROM `product`';
-		echo '<td>Description</td>';
+		echo '<td >Description</td>';
 		$result = mysqli_query($db, $query);
 
 			while($r = mysqli_fetch_assoc($result)){ ?>
