@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Խնամորդը՝ 127.0.0.1
--- Generation Time: Փտվ 29, 2020թ. ժ. 22:33
+-- Generation Time: Մրտ 05, 2020թ. ժ. 13:07
 -- Սպասարկչի տարբերակը՝ 10.1.37-MariaDB
 -- PHP-ի տարբերակը՝ 7.2.12
 
@@ -35,21 +35,21 @@ CREATE TABLE `product` (
   `image` text NOT NULL,
   `description` text NOT NULL,
   `data` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf16;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `product`
 --
 
 INSERT INTO `product` (`id`, `name`, `price`, `image`, `description`, `data`) VALUES
-(33, 'Windows 7 ', 130, './Img/windws 7 x32jpg.jpg', 'your computer on Windows 7 or 8, and if so it might be time to buy Windows 10. This isnt just a performance update, Windows 10 brings new features and security settings to your machine that are crucial to getting your work done in todays operating systems. From the ease of the', '2020-02-29 18:34:17'),
-(34, 'Windows 10', 170, './Img/120-1206207_windows-10-pro-build-10240-iso-32-64.png.jpg', 'your computer on Windows 7 or 8, and if so it might be time to buy Windows 10. This isnt just a performance update, Windows 10 brings new features and security settings to your machine that are crucial to getting your work done in todays operating systems. From the ease of the', '2020-02-29 18:35:01'),
-(35, 'Windows 7 Ultimate', 140, './Img/41l7nBP0gRL.jpg', 'your computer on Windows 7 or 8, and if so it might be time to buy Windows 10. This isnt just a performance update, Windows 10 brings new features and security settings to your machine that are crucial to getting your work done in todays operating systems. From the ease of the', '2020-02-29 18:36:15'),
-(36, 'Windows 7 Home Premium', 120, './Img/windws 7.jpg', 'your computer on Windows 7 or 8, and if so it might be time to buy Windows 10. This isnt just a performance update, Windows 10 brings new features and security settings to your machine that are crucial to getting your work done in todays operating systems. From the ease of the', '2020-02-29 18:37:43'),
-(37, 'Windows 8.1', 150, './Img/windows 8.1.jpg', 'your computer on Windows 7 or 8, and if so it might be time to buy Windows 10. This isnt just a performance update, Windows 10 brings new features and security settings to your machine that are crucial to getting your work done in todays operating systems. From the ease of the', '2020-02-29 20:04:54'),
-(38, 'Windows xp', 25, './Img/windows xp.jpg', 'your computer on Windows 7 or 8, and if so it might be time to buy Windows 10. This isnt just a performance update, Windows 10 brings new features and security settings to your machine that are crucial to getting your work done in todays operating systems. From the ease of the', '2020-02-29 20:17:33'),
-(39, 'Windows vista', 90, './Img/windows vista.jpg', 'your computer on Windows 7 or 8, and if so it might be time to buy Windows 10. This isnt just a performance update, Windows 10 brings new features and security settings to your machine that are crucial to getting your work done in todays operating systems. From the ease of the', '2020-02-29 20:33:56'),
-(40, 'Windows 95', 35, './Img/windows 95.jpg', 'your computer on Windows 7 or 8, and if so it might be time to buy Windows 10. This isnt just a performance update, Windows 10 brings new features and security settings to your machine that are crucial to getting your work done in todays operating systems. From the ease of the', '2020-02-29 20:35:18');
+(1, 'Windows 7 ', 80, './Img/windws 7 x32jpg.jpg', 'Windows 7 also includes several new multimedia features. One example is Play To,\" a program that allows you to stream audio and video to different computers or devices within your house. The HomeGroup feature makes it easy to share media files and other data between', '2020-03-05 10:54:15'),
+(2, 'Windows 7 Home premium', 85, './Img/windows 7.jpg', 'Windows 7 Home premium several new multimedia features. One example is Play To,\" a program that allows you to stream audio and video to different computers or devices within your house. The HomeGroup feature makes it easy to share media files and other data', '2020-03-05 10:55:09'),
+(3, 'Windows 10', 130, './Img/Windows 10.jpg', 'Windows 10 also includes several new multimedia features. One example is Play To,\" a program that allows you to stream audio and video to different computers or devices within your house. The HomeGroup feature makes it easy to share media files and other data', '2020-03-05 10:59:39'),
+(4, 'Windows 8.1', 90, './Img/Windows 8.1.jpg', 'Windows 8.1  also includes several new multimedia features. One example is Play To,\" a program that allows you to stream audio and video to different computers or devices within your house. The HomeGroup feature makes it easy to share media files and other data', '2020-03-05 11:00:41'),
+(9, 'Windows 7 Ultimate', 125, './Img/Windows Ultimate.jpg', 'Windows 7 Ultimate several new multimedia features. One example is Play To,\" a program that allows you to stream audio and video to different computers or devices within your house. The HomeGroup feature makes it easy to share media files and other data between', '2020-03-05 11:54:29'),
+(10, 'Windows 95', 75, './Img/Windows 95.jpg', 'Windows 95 includes several new multimedia features. One example is Play To,\" a program that allows you to stream audio and video to different computers or devices within your house. The HomeGroup feature makes it easy to share media files and other data between', '2020-03-05 11:55:01'),
+(11, 'Windows xp', 70, './Img/Windows xp.jpg', 'Windows xp includes several new multimedia features. One example is Play To,\" a program that allows you to stream audio and video to different computers or devices within your house. The HomeGroup feature makes it easy to share media files and other data between', '2020-03-05 11:55:19'),
+(12, 'Windows vista', 79, './Img/Windows vista.jpg', 'Windows vista includes several new multimedia features. One example is Play To,\" a program that allows you to stream audio and video to different computers or devices within your house. The HomeGroup feature makes it easy to share media files and other data between', '2020-03-05 11:55:53');
 
 --
 -- Պահպանված աղյուսակների ցուցակագրերը
@@ -69,7 +69,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT՝ աղյուսակի համար `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -27,17 +27,24 @@ font-size: 40px;
   }
 }
 .Update{
-  float: left;
   border: 2px solid blue;
   border-radius: 20px;
- 
+ float: left;
 }
+
 
 .nka{
 
 width: 100px;
 height: 100px;
 
+}
+.Del{
+  float: left;
+  border: 2px solid blue;
+  height: 500px;
+  border-radius: 20px;
+  margin-left: 5px;
 }
 .Add{
   float: left;
@@ -51,20 +58,21 @@ height: 100px;
   width: 1300px;
   margin: 30px auto;
   height: 500px;
-}
-.tab{
 
-  width: 1300px;
-  margin: 0 auto;
+}
+/* .tab{
+
+
+  
   
 
-}
+} */
 table{
   color: white;
   /* border: 1px solid black; */
   border-color: black;
   border-radius: 20px;
- 
+  margin: 5px auto;
 }
 
 td{
@@ -478,7 +486,7 @@ body{
   background-color: #0000ff;
   display: flex;
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   width: 100%;
   }
 .you1{

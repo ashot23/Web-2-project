@@ -16,6 +16,11 @@ text-decoration: none;
     a:hover{
         background-color: blue;
     }
+
+    p{
+font-size: 40px;
+
+    }
     </style>
 
 <?php
@@ -28,9 +33,9 @@ if ($_GET['id']) {
   
     $del = mysqli_query($db, $delet);
     if ($del) {
-        echo 'Product is Buy';
+        echo '<p>Product is Del</p';
     } else {
-        echo 'ERROR!!';
+        echo '<p>ERROR!!</p>';
     }
   }
 }

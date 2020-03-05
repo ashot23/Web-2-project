@@ -7,10 +7,6 @@ $icon = 'Img/Ico.png';
 
 <?php include('../header.php') ?>
 
-<style>
-
-
-</style>
 <div class="crund">
 
 
@@ -20,13 +16,14 @@ $icon = 'Img/Ico.png';
 <div class="child5">
 <form method="POST" action="../action.php">
 <input class="name" type="text" name="name" placeholder="name"><br>
-<input class="frstname" type="number" name="price"name placeholder="price"><br>
-<input class="email" type="text" name="image" placeholder="image name"><br>
+<input class="frstname" type="number" name="price" placeholder="price"><br>
+<input   class="email" type="text" name="image" placeholder="image name (./Img/image name.jpg)"><br>
 <textarea class="textare" name="description" placeholder="description" name="Text"  cols="50" rows="10"></textarea><br>
  <input class="sumb" name="Add" value="Add"  type="submit" name="submit">
 </form>
 </div>
 </div>
+
 <div class="Update">
 <p align = 'center' class="add1">Update </p>
 <div class="child5">
@@ -35,18 +32,23 @@ $icon = 'Img/Ico.png';
 <input class="name" type="text" name="name" placeholder="change name"><br>
 <input class="frstname" type="number" name="price" placeholder="change price"><br>
 
-<input class="email" type="text" name="image" placeholder="change image name"><br>
+<input class="email"  type="text" name="image" placeholder="change image name (./Img/image name.jpg)"><br>
 <textarea class="textare" name="description" placeholder="change description" name="Text"  cols="50" rows="10"></textarea><br>
  <input class="sumb" name="Update" value="Update"  type="submit" name="submit">
 </form>
 </div>
-
-
+</div>
+	
+<div class="Del">
+<p align = 'center' class="add1">Delete </p>
+<div class="child5">
+<form method="GET" action="../Delet.php">
+<input class="frstname" type="number" name="id" placeholder="Id  (Required)"><br>
+ <input class="sumb" name="Update" value="Del"  type="submit" name="submit">
+</form>
+</div>
 </div>
 
-
-<!-- </div> -->
-    	
 </div>
 <h2 align = 'center'>Table of product</h2>
 <div class="tab">
