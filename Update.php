@@ -34,25 +34,25 @@ $description = $_POST['description'];
 
 	if ($db) {
         if ($name) {
-            $query2 = "UPDATE `product` SET `name` = '$name' WHERE `product`.`id` = $id";   
+            $query2 = "UPDATE `product` SET `name` = '$name' WHERE `product`.`name` = '$id'";   
         }
         else{
             echo 'No change is name';
         }
         if ($price) {
-            $query3 = "UPDATE `product` SET `price` = '$price' WHERE `product`.`id` = $id";
+            $query3 = "UPDATE `product` SET `price` = '$price' WHERE `product`.`id` = '$id'";
         }
         else{
             echo 'No change is price';
         }
 if ($image) {
-    $query4 = "UPDATE `product` SET `image` = '$image' WHERE `product`.`id` = $id";
+    $query4 = "UPDATE `product` SET `image` = '$image' WHERE `product`.`id` = '$id'";
 }
 else{
     echo 'No change is image';
 }
 if ($description) {
-    $query1 = "UPDATE `product` SET `description` = '$description' WHERE `product`.`id` = $id";
+    $query1 = "UPDATE `product` SET `description` = '$description' WHERE `product`.`id` = '$id'";
 }
  else{
     echo 'No change is description';

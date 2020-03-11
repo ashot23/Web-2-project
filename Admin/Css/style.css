@@ -30,6 +30,7 @@ font-size: 40px;
   border: 2px solid blue;
   border-radius: 20px;
  float: left;
+ width: 410px;
 }
 
 
@@ -45,6 +46,7 @@ height: 100px;
   height: 500px;
   border-radius: 20px;
   margin-left: 5px;
+width: 408px;
 }
 .Add{
   float: left;
@@ -408,14 +410,11 @@ margin: 0 auto;
 
 
 .textare {
-  animation-fill-mode: forwards;
-  animation-delay: 4s;
   border: 2px solid gray;
   border-radius: 10px;
-
   position: relative;
-  animation-duration: 1.5s;
-  animation-name: textare;
+width: 400px;
+height: 150px;
 }
 
 

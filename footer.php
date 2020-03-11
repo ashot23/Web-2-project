@@ -14,10 +14,11 @@
 </a>
     </div>
 <div  class="you2">
-        ©designed by `Ashot:
+         ©designed by `Աշոտ
 </div>
 
     </div>
     
 </body>
 </html>
+

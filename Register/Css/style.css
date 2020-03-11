@@ -405,7 +405,11 @@ font-style: italic;
   position: relative;
   animation-duration: 1.5s;
   animation-name: textare;
+  width: 400px;
+height: 150px;
 }
+
+
 
 @keyframes textare {
   0% {
@@ -481,7 +485,7 @@ background-size: cover;
 position: relative;
 min-height: 100vh;
 background-color: cornflowerblue;
-
+padding-bottom: 3px; 
 }
 
 
@@ -493,7 +497,7 @@ background-color: #0000ff;
 display: flex;
 position: absolute;
 bottom: 0;
-width: 99.9%;
+width: 100%;
 }
 .you1{
 margin: 8px 0 0 0;

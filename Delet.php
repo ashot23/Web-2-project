@@ -24,21 +24,25 @@ font-size: 40px;
     </style>
 
 <?php
-
-
+$name = $_GET['id'];
 $db = mysqli_connect('localhost', 'root', '', 'shop');
+
+// $result = mysqli_query($db, $query);
+
 if ($db) {
-if ($_GET['id']) {
-    $delet = 'DELETE FROM `product` WHERE `product`.`id` = '.$_GET['id'];
-  
+
+    $r = mysqli_fetch_assoc($result);
+    $delet = "DELETE FROM `product` WHERE `product`.`name` = '$name'";
     $del = mysqli_query($db, $delet);
     if ($del) {
         echo '<p>Product is Del</p';
     } else {
         echo '<p>ERROR!!</p>';
     }
+    
   }
-}
+
+
 
 ?>
 <br>

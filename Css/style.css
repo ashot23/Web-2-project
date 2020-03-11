@@ -7,10 +7,10 @@ body {
   background-image: url("../Img/big.jpg");
   background-repeat: no-repeat;
 background-size: cover;
-white-space: normal;
-line-height: normal;
+/* white-space: normal;
+line-height: normal;*/
 position: relative;
-padding-bottom: 3px;
+padding-bottom: 3px; 
 min-height: 100vh;
 }
 
@@ -462,7 +462,7 @@ color: black;
   display: flex;
   position: absolute;
   bottom: 0;
-  width: 99.9%;
+  width: 100%;
 }
 .you1 {
   margin: 8px 0 0 0;

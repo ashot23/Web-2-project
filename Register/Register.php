@@ -72,7 +72,7 @@ for ($i=0; $i <12 ; $i++) { ?>
 
 
 <input style="font-style: italic" name="email" class="email" placeholder="Email" type="email"></input><br>
-<textarea class="textare" placeholder="Մեկնաբանություն" name="Text"  cols="55" rows="10"></textarea><br>
+<textarea class="textare" placeholder="Մեկնաբանություն" name="Text"  ></textarea><br>
 <input style="font-style: italic" class="sumb" name="Reg" value="Register" onclick="reg()" type="submit">
 </form>
 
